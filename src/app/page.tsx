@@ -3,6 +3,11 @@ import { FaEye } from "react-icons/fa6";
 import { BsNewspaper } from "react-icons/bs";
 import parser from "@/libs/parser";
 import github from "@/libs/github";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: '🗞️ | TANANSORN',
+}
 
 export default async function Home() {
   const filter_ = await github()
