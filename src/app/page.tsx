@@ -22,7 +22,7 @@ export default async function Home() {
       </div>
       <div className="h-full w-full">
         <div className="grid grid-rows-1 lg:grid-cols-2 h-full w-full">
-          <div className="bg-black w-full p-10 text-7xl min-h-screen">
+          <div className="bg-black w-full p-14 text-7xl min-h-screen">
             <div className="flex gap-4">
               <p className="text-white underline mt-2">INFO</p>
               <BsNewspaper className="my-auto w-16 h-16 text-white rotate-6" />
@@ -52,7 +52,7 @@ export default async function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-col bg-[#FFE3BB] w-full p-10 text-7xl min-h-screen">
+          <div className="flex-col bg-[#FFE3BB] w-full p-14 text-7xl min-h-screen">
             <p className="text-black underline mt-2">DISCORD</p>
             <div className="flex mt-2">
               <a href="https://discord.com/users/502056862674452481"><img src="https://lanyard-profile-readme.vercel.app/api/502056862674452481?bg=23283d&borderRadius=8px&hideDiscrim=true" /></a>
